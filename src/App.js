@@ -42,6 +42,7 @@ function toString(nm,id,date,pr){
   return (
     <div>
       <Product name = {name} id = {id} datePurchased = {datePurchased} price = {price} /> 
+      <br/>
      <ProductPanel/>
 
       {/* <Product name = {name2} id = {id2} datePurchased = {datePurchased2} price = {price2} /> */}
